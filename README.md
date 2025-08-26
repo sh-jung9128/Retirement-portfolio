@@ -1,7 +1,5 @@
 # Regime-Aware Retirement Portfolio with HMM + CVaR
-
 This repository implements a **dynamic retirement portfolio strategy** that combines **Hidden Markov Models (HMM)** for regime detection with **Conditional Value-at-Risk (CVaR) optimization** for risk-aware asset allocation.  
-
 The goal is to **ensure sustainable cash flows during retirement withdrawals** by adapting portfolio weights to market regimes and incorporating income-oriented assets such as covered call ETFs.  
 
 ---
@@ -11,8 +9,8 @@ The goal is to **ensure sustainable cash flows during retirement withdrawals** b
   CVaR optimization, withdrawal simulation, transaction cost, and ETF expense ratio handling
 - `monthly_dividend.py` : Yahoo Finance data fetcher, covered call ETF backtester,  
   additional utility functions
-- `notebooks/` : Jupyter notebooks for data preprocessing, backtesting runs, and result analysis
-- `docs/RegimeAware_Retirement_Portfolio.pdf` : Final project report (in Korean)
+- `analysis/` : Jupyter notebooks for data preprocessing, backtesting runs, and result analysis
+- `RegimeAware_Retirement_Portfolio.pdf` : Final project report
 
 ---
 
