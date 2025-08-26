@@ -15,7 +15,7 @@ The goal is to **ensure sustainable cash flows during retirement withdrawals** b
 ---
 
 ## 📊 Key Features
-Regime detection: SPY & VIX daily log-returns classified into Bull / Neutral / Bear via HMM
-Risk-aware optimization: Mean-CVaR with ℓ2 regularization to balance return, tail risk, and diversification
-Cash flow simulation: Monthly withdrawals, dividend income, transaction costs, ETF expense ratios included
-Rebalancing analysis: Compare performance under monthly, quarterly, semiannual, and annual schedules
+- Regime detection: SPY & VIX daily log-returns classified into Bull / Neutral / Bear via HMM
+- Risk-aware optimization: Mean-CVaR with ℓ2 regularization to balance return, tail risk, and diversification
+- Cash flow simulation: Monthly withdrawals, dividend income, transaction costs, ETF expense ratios included
+- Rebalancing analysis: Compare performance under monthly, quarterly, semiannual, and annual schedules
